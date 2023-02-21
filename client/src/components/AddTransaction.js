@@ -20,16 +20,16 @@ export const AddTransaction = () => {
 
   return (
     <>
-      <h3>Add new transaction</h3>
+      <h3 className='adding'>Add new transaction</h3>
       <form onSubmit={onSubmit}>
         <div className="form-control">
-          <label htmlFor="text">Text</label>
+          <label htmlFor="text" className='adding'>Write Income/Expense</label>
           <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." />
         </div>
         <div className="form-control">
           <label htmlFor="amount"
-            >Amount <br />
-            (negative - expense, positive - income)</label
+           className='adding' >Amount <br />
+          (<kbd className='kbd1'>if negative Write -Amount,</kbd> <kbd className='kbd2'>if positive Write +Amount</kbd>)</label
           >
           <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
         </div>

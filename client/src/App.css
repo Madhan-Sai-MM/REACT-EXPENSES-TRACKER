@@ -19,6 +19,43 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.income{
+  border: 2px solid rgb(19, 199, 19);
+  padding: 20px;
+}
+
+.expense{
+  border: 2px solid rgb(231, 16, 16);
+  padding: 20px;
+}
+
+.balance{
+  font-size: large;
+  color: #2b9959;
+  width: 200px;
+  height: 15px;
+}
+
+.adding{
+  color: rgb(45, 143, 200);
+}
+
+.kbd1{
+  color: crimson;
+}
+
+.kbd2{
+  color: rgb(9, 91, 9);
+}
+
+.mainHeader{
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(106, 106, 197);
+  width: 200px;
+  height: 20px;
+}
+
 .container {
   margin: 30px auto;
   width: 500px;
